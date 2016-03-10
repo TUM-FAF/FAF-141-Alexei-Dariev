@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1457642702 source:c:\users\dariev\desktop\lab2\lab2\main.cpp
+	<tchar.h>
+	<windows.h>
+	"resource.h"
+	<string.h>
+	<stdio.h>
+
+1457642606 c:\users\dariev\desktop\lab2\lab2\resource.h
+
+1457630909 source:c:\users\dariev\desktop\lab2\lab2\resources.rc
+	"resource.h"
+	<windows.h>
+
+1457540868 source:c:\users\dariev\desktop\untitled2.c
+	<windows.h>
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,39 @@
+#include "resource.h"
+#include <windows.h>
+
+IDR_MYMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", ID_FILE_EXIT
+    END
+
+    POPUP "&Stuff"
+    BEGIN
+        MENUITEM "&Go", ID_STUFF_GO
+        MENUITEM "G&o somewhere else", 0, GRAYED
+    END
+
+    POPUP "&Draw"
+    BEGIN
+        MENUITEM "Line",    IDM_LINE
+        MENUITEM "Ellipse", IDM_ELLIPSE
+    END
+END
+
+
+
+IDD_ABOUTBOX DIALOG 0, 0, 170, 62
+
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Win32Lesson1"
+FONT 8, "MS Shell Dlg"
+BEGIN
+
+    LTEXT           "WINDOWS PROGRAMMING LAB2",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "DONE BY A AL3X3I DARI3V",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDI_MYICON ICON "dopewars_weed.ico"
+IDI_MYCURSOR CURSOR "MLGlogo.cur"
