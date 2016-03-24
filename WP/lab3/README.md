@@ -27,7 +27,6 @@ Basics of Working with Mouse. GDI Primitives. Bezier Curve.
     * Draw a Bezier curve using mouse
   - for _Advanced Level_ (grade 9 || 10) you should be able to:
     * Realize the tasks from _Normal Level_.
-    * Zoom in and out application working area using keyboard 
     * Use mouse as an eraser (choose 1 option):
       * delete objects using mouse clicking
       * eraser of a fixed width
