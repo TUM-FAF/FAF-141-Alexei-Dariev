@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1458854994 source:c:\users\dariev\desktop\lab3\lab3\main.cpp
+	<tchar.h>
+	<windows.h>
+	<time.h>
+	<vector>
+	<string>
+	<sstream>
+	<windowsx.h>
+
